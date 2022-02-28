@@ -2,6 +2,7 @@ package com.hackaton.data.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.TimeZone;
@@ -44,6 +45,10 @@ public class Date {
         
         ;
 
+    }
+
+    public static Date from(Instant parse) {
+        return null;
     }
 
 }
